@@ -1,0 +1,79 @@
+#header{
+    height: 112px;
+    width: 100%;
+    
+}  
+#header #top{
+    background-color: #101010;
+     height: 28px;
+     line-height: 28px;
+    color: #e6e6e6;
+    position: relative;
+}
+#top .logo{
+    position: absolute
+}
+#header #top .textfl {
+    padding-left: 206px
+}
+#header #top .textfr a{
+    color: #ff6600;
+  }
+  #header #top .textfr{
+      padding-right:10px
+  }
+  #header .logotext{
+      margin-left: 306px;
+      line-height: 56px;
+  }
+  #header .headtz{
+      margin-left: 962px;
+      font-size: 24px
+  }
+  /* --------------------------------------------------------------------------------------------------------------------- */
+
+
+.enrollformss{
+    width: 400px;
+
+    
+}
+.enrollformss p{
+    margin-top: 58px;
+}
+input{
+    width: 400px;
+	height: 44px;
+	border: solid 1px #d9d9d9;
+}
+.enrollformtk span{
+    color: #ff6600;
+}
+.enrollformtk {
+    margin-top: 14px;
+    margin-right: 77px;
+    margin-bottom: 31px;
+}
+.enrollformbtn input{
+    color: #fff;
+    font-size: 26px;
+}
+label {
+    color: red;
+    
+}
+/* ===================================================== */
+
+
+#foot{
+    text-align: center;
+}
+#foot p{
+    margin-top: 23px;
+}
+/* ====================================== */
+.enrollformss .btn{
+    width: 12px;
+	height: 12px;
+	border: solid 1px #e6e6e6;
+}

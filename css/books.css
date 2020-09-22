@@ -1,0 +1,324 @@
+
+#header{
+    height: 112px;
+    width: 100%;
+    
+}  
+#header #top{
+    background-color: #101010;
+     height: 28px;
+     line-height: 28px;
+    color: #e6e6e6;
+    position: relative;
+}
+#top .logo{
+    position: absolute
+}
+
+#header #top .textfl {
+    padding-left: 206px
+}
+#header #top .textfr a{
+  color: #ff6600;
+}
+#header #top .textfr{
+    padding-right:10px
+}
+#header #search form{
+    width: 440px;
+    height: 32px;
+    border:  1px solid #ff6600;
+    margin-right: 36px
+   
+}
+#header #search .hetext{
+    width: 390px;
+    height: 27px;
+    border: none;
+    outline: none;
+    text-indent: 2px;
+    font-size: 16px;
+    color: #bfbfbf;
+}
+#header #search .hebtn{
+    width: 50px;
+	height: 33px;
+    background-color: #ff6600;
+    border: none;
+    outline: none;
+    background: url(../img/bgicon.png) no-repeat 0 0
+}
+#header #search a:first-child{
+    text-indent: 36px;
+    width: 100px;
+	height: 36px;
+    background: url(../img/bgicon.png) no-repeat 0 -42px #ff6600;
+    text-align: center;
+    line-height: 36px;
+    color: #fff
+}
+#header #search a:last-child{
+    width: 100px;
+	height: 36px;
+	background-color: #ebebeb;
+    border: solid 1px #cccccc;
+    border: none;
+    text-align: center;
+    line-height: 36px;
+}
+#header #search{
+    height: 36px;
+}
+#header #menu li{
+    float: left;
+    margin-left: 32px;
+    margin-top: 15px;
+}
+#header #menu li a{
+    color: #323232;
+}
+#header #menu li:first-child{
+    margin-left: 236px;
+}
+/* ----------------------------------------------------------------------------- */
+
+.bannerbottom img{
+    margin-top: 20px;
+}
+/* ----------------------------------------------------------------------------------- */
+#spread .clothingheadr{
+    border-bottom: #ff6600 6px solid;
+    margin-top: 25px;
+}
+#spread .clothingheadr h1{
+    color: #ff6600;
+}
+#spread .spreadhead li{
+    width: 210px;
+	height: 258px;
+    /* margin-right: 26px; */
+    margin-top: 13px;
+    padding-right: 30px
+}
+#spread .spreadhead li span{
+    color: #f4290d;
+}
+#spread .spreadhead li i{
+    color: yellow;
+}
+ #spread .spreadhead li s{
+    color: #c0c0c0;
+}
+#spread .spreadhead li p:first-child{
+    text-align: center;
+}
+/* -------------------------------------------------------------------------- */
+
+
+.booktitle{
+    font-size: 22px;
+    margin-top: 57px;
+    
+}
+.booktitle span{
+    display: inline-block;
+    width: 42px;
+    height: 44px;
+    color: #fff;
+    background-color: #ff6600;
+    line-height: 44px;
+    font-size: 28px;
+    text-align: center;
+}
+#newbooks .newbooksflet{
+    width: 904px;
+	height: 500px;
+	background-color: #ffffff;
+    border: solid 2px #e6e6e6;
+    border-top: #ff6600 6px solid;
+}
+#newbooks .newbooksflet ul li span{
+    color: #f4290d;
+}
+#newbooks .newbooksflet ul li{
+    width: 158px;
+	height: 220px;
+    background-color: #ffffff;
+    margin-left: 20px;
+}
+#newbooks .newbooksflet p:first-child{
+    text-align: center;
+}
+#newbooks .newbooksflet ul li p:nth-child(3){
+    color: #808080;
+    margin-top:11px;
+}
+#newbooks .newbooksflet ul li s{
+    color: #b3b3b3;
+}
+.ebook-right{
+    width: 280px;
+    height: 504px;
+    border: 1px solid #ccc;
+}
+.ebook-right h4{
+    line-height: 50px;
+    color: #808080;
+}
+
+.ebook-right ul li{
+    position: relative;    
+    line-height: 40px;
+    border-bottom:1px solid #ccc ;
+    color: #4d4d4d;
+    font-size: 16px;
+}
+.ebook-right ul li:last-child{
+    border: 0;
+}
+.ebook-right ul li div{
+
+   display: none;
+}
+.ebook-right ul li .title.curtitle{
+    display: none;
+}
+.ebook-right ul li div.cur{
+    display: block;
+}
+
+.ebook-right ul li span{
+    position: absolute;
+    left:-14px;
+    top: 0px;
+}
+.ebook-right ul li .title{
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+ .ebook-right ul li div p{
+  
+    line-height: 20px;
+    color: #404040;
+    padding: 5px;
+}
+#exclusive .ivetitle ul li{
+    width: 98px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 10px;
+}
+#exclusive .ivetitle ul li.action{
+    background-color: #ff6600;
+    color: #fff;
+}
+#exclusive .ivetitle {
+    border-bottom: 6px #ff6600 solid;
+    margin-top: 52px;
+}
+/* --------------------------------------------------------------------------- */
+#exclusive .conts.curs{
+    display: block;
+}
+#exclusive .conts{
+    display: none;
+}
+/* ------------------------------------------------------------------------------- */
+#likes .newbooksflet{
+    display: none;
+}
+#likes .open{
+    display: block;
+}
+#likes .likestitle{
+    border-bottom: 6px #ff6600 solid;
+    margin-top: 40px;
+}
+#likes .likestitle p{
+    color: #468bfd;
+    line-height: 44px;
+    margin-top: 55px;
+}
+#likes .likestitle p span{
+    width: 53px;
+    font-size: 18px;
+}
+#likes .newbooksflet ul li span{
+    color: #f4290d;
+}
+#likes .newbooksflet ul li{
+    width: 170px;
+	height: 220px;
+    background-color: #ffffff;
+    margin:0 15px;
+}
+#likes.newbooksflet p:first-child{
+    text-align: center;
+}
+#likes .newbooksflet ul li p:nth-child(3){
+    color: #808080;
+    margin-top:11px;
+}
+#likes .newbooksflet ul li s{
+    color: #b3b3b3;
+}
+/* ---------------------------------------------------------------------- */
+
+#footbanner{
+    margin-top: 31px;
+    border-top: solid 1px #323232
+}
+#footbanner .fbtext img{
+    margin-left: 20px;
+}
+/* ---------------------------------------------------------------------------------- */
+
+
+#foot{
+    width: 100%;
+}
+#foot .footlogo li{
+    float: left;
+    margin-left: 100px;
+}
+#foot .footlogo li:first-child{
+    margin-left: 197px;
+}
+#foot{
+    border-top: #ff6600 solid 6px;
+}
+#foot .footlogo{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background-color: #f2f2f2;
+}
+#foot .footmenu li{
+    width: 126px;
+    height: 130px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 40px;
+}
+#foot .footmenu li:first-child{
+    margin-left: 226px;
+}
+#foot .footmenu li:last-child{
+    margin-left: 58px;
+    line-height: 130px;
+}
+#foot .footmenu li a{
+    line-height: 26px;
+}
+#foot .footmenu{
+    margin-top: 36px;
+}
+#foot .footer{
+    margin-top: 48px;
+}
+#foot .footer p:last-child{
+    margin-top: 23px;
+}

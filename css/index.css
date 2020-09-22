@@ -1,0 +1,776 @@
+@charset "UTF-8";
+/* 轮播css */
+.pptbox{
+    width: 429px;
+    height: 342px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pptbox .innerwrapper{
+    width:2145px;/*当增加了li之后，大盒子的宽度也要相应的增加 这里增加了两个li，每个400，所以ul 从原来的1600变成了2400*/
+    height: 342px;
+    list-style: none;
+    position: absolute;
+    left: -429px;
+}
+
+.innerwrapper li
+{
+    width:429px;
+    height:342px;
+    float: left;
+}
+.innerwrapper li a
+{
+    display: block;
+}
+
+.innerwrapper li a img
+{
+    width: 429px;
+    height:142px;
+    display:block;
+}
+
+.btnleft{
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    left:0;
+    top:25px;
+    background-color: black;
+    background-image:url(../img/nav.png);
+    background-position: center center;
+    background-repeat:no-repeat;
+    cursor: pointer;
+    z-index: 100;
+    color:#fff;
+}
+
+.btnright{
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    right:0;
+    top:25px;
+    background-color: black;
+    background-image:url(../img/nav.png);
+    background-position: center center;
+    background-repeat:no-repeat;
+    cursor: pointer;
+    z-index: 100;
+    color:#fff;
+    
+}
+
+/*控制按钮开始*/
+
+.controls{
+    width:96px;
+    position: absolute;
+    left:152px;
+    bottom:10px;
+    list-style: none;
+}
+.controls li{
+    width: 20px;
+    height:20px;
+    background-color: gold;
+    float: left;
+    margin-right:2px;
+    text-align: center;
+    border-radius:10px ;
+    cursor: pointer;
+}
+
+.controls li.current
+{
+    background-color:aqua;
+    color: brown;
+}
+/* 轮播css结束 */
+#header{
+    height: 112px;
+    width: 100%;
+    
+}  
+#header #top{
+    background-color: #101010;
+     height: 28px;
+     line-height: 28px;
+    color: #e6e6e6;
+    position: relative;
+}
+#top .logo{
+    position: absolute
+}
+
+#header #top .textfl {
+    padding-left: 206px
+}
+#header #top .textfr a{
+  color: #ff6600;
+}
+#header #top .textfr{
+    padding-right:10px
+}
+#header #search form{
+    width: 440px;
+    height: 32px;
+    border:  1px solid #ff6600;
+    margin-right: 36px
+   
+}
+#header #search .hetext{
+    width: 390px;
+    height: 27px;
+    border: none;
+    outline: none;
+    text-indent: 2px;
+    font-size: 16px;
+    color: #bfbfbf;
+}
+#header #search .hebtn{
+    width: 50px;
+	height: 33px;
+    background-color: #ff6600;
+    border: none;
+    outline: none;
+    background: url(../img/bgicon.png) no-repeat 0 0
+}
+#header #search a:first-child{
+    text-indent: 36px;
+    width: 100px;
+	height: 36px;
+    background: url(../img/bgicon.png) no-repeat 0 -42px #ff6600;
+    text-align: center;
+    line-height: 36px;
+    color: #fff
+}
+#header #search a:last-child{
+    width: 100px;
+	height: 36px;
+	background-color: #ebebeb;
+    border: solid 1px #cccccc;
+    border: none;
+    text-align: center;
+    line-height: 36px;
+}
+#header #search{
+    height: 36px;
+}
+#header #menu li{
+    float: left;
+    margin-left: 32px;
+    margin-top: 15px;
+}
+#header #menu li a{
+    color: #323232;
+}
+#header #menu li:first-child{
+    margin-left: 236px;
+}
+#banner{
+    height: 400px;
+  
+}
+
+#banner .fcontrol{
+    color: #1a1a1a;
+    background-color: #f3f3f3;
+    font-size: 14px;
+    position: relative;
+    width: 200px;
+    height: 430px;
+}
+#banner .fcontrol>li{
+    margin-left: 19px;
+    margin-top: 14px
+}
+#banner .fcontrol .controlbox{
+    width: 579px;
+    height: 492px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    background-color: #fff;
+    display: none;
+    z-index: 100;
+}
+#banner .fcontrol .controlbox p{
+    margin-top: 14px;
+    margin-left: 37px
+}
+#banner .fcontrol .controlbox li:first-child{
+    margin-top: 25px;
+}
+#banner .fcontrol .controlbox li{
+    margin-top: 14px;
+    margin-left: 37px;
+    border-bottom: 2px solid #e6e6e6;
+    width: 400px;
+}
+#Recommend{
+    margin: 30px;
+}
+#Recommend .freambox{
+    width: 1200px;
+    height: 506px;
+    border: solid 2px #ff6600;
+    border-top: 6px solid #ff6600;
+    margin-top: 3px;
+}
+#Recommend h1{
+    font-size: 24px;
+    color: #ff6600;
+    margin-top: 40px;
+}
+#Recommend .freambox li{
+    width: 196px;
+    height: 250px;
+    border: solid 2px #ff6600;
+    float: left;
+}
+#Recommend .freambox p:first-child{
+    text-align: center;
+}
+#Recommend .freambox span{
+    font-size: 24px;
+    color: #f4290d;
+}
+#Recommend .freambox div{
+    color: #f4290d;
+}
+#Recommend .freambox span:first-child{
+    font-size: 14px;
+}
+#Recommend .freambox p:last-child>h1{
+    font-size: 14px;
+    color: #333333;
+}
+
+.controls{
+    width:96px;
+    position: absolute;
+    left:152px;
+    bottom:10px;
+    list-style: none;
+}
+.controls li{
+    width: 20px;
+    height:20px;
+    background-color: gold;
+    float: left;
+    margin-right:2px;
+    text-align: center;
+    border-radius:10px ;
+    cursor: pointer;
+}
+
+.controls li.current
+{
+    background-color:aqua;
+    color: brown;
+}
+#ebook .ebook-left{
+    width: 904px;
+}
+#ebook .ebook-left .com-title li {
+    width: 100px;
+    line-height: 34px;
+    cursor: pointer;
+
+}
+#ebook .ebook-left .com-title li.active {
+    background-color: #f60;
+    color: #fff;
+}
+/* 电子书内容区域 */
+#ebook .ebook-left .con {
+    display: none;
+}
+#ebook .ebook-left .con.cur {
+   display: block;
+}
+#ebook .ebook-left .con .categorylinks{
+    width: 240px;
+    height: 442px;
+    background-color: #f9f9f9;
+}
+#ebook .ebook-left .con .categorylinks div a{
+    float: left;
+    width: 100px;
+    height: 26px;
+    color: #333333;
+}
+/*  */
+#ebook .ebook-left .con .bookslist{
+    width: 664px;
+    /* height: 442px; */
+    
+}
+#ebook .ebook-left .con .bookslist > ul > li:first-child {
+    width: 332px;
+}
+#ebook .ebook-left .con .bookslist > ul > li:nth-child(3),
+#ebook .ebook-left .con .bookslist > ul > li:nth-child(7)
+ {
+     border-right:1px solid #ccc ;
+ }
+
+#ebook .ebook-left .con .bookslist > ul > li {
+    float: left;
+    width: 166px;
+    height: 220px;
+    /* border: 1px solid #ccc; */
+    border-left:1px solid #ccc;
+    border-bottom:1px solid #ccc; 
+    box-sizing: border-box;
+}
+#ebook .ebook-left .con .bookslist > ul > li:nth-child(4n) {
+    border-right: 1px solid #ccc;
+}
+
+#ebook .ebook-left .con .bookslist > ul > li  h3{
+    line-height: 34px;
+}
+#ebook .ebook-left .con .bookslist > ul > li  p{
+    line-height: 22px;
+}
+
+.ebook-right{
+    width: 280px;
+    margin-top:34px ;
+    border: 1px solid #ccc;
+}
+.ebook-right h4{
+    line-height: 50px;
+    color: #808080;
+}
+
+.ebook-right ul li{
+    position: relative;    
+    line-height: 40px;
+    border-bottom:1px solid #ccc ;
+    color: #4d4d4d;
+    font-size: 16px;
+}
+.ebook-right ul li:last-child{
+    border: 0;
+}
+.ebook-right ul li div{
+
+   display: none;
+}
+.ebook-right ul li .title.curtitle{
+    display: none;
+}
+.ebook-right ul li div.cur{
+    display: block;
+}
+
+.ebook-right ul li span{
+    position: absolute;
+    left:-14px;
+    top: 0px;
+}
+.ebook-right ul li .title{
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+ .ebook-right ul li div p{
+  
+    line-height: 20px;
+    color: #404040;
+    padding: 5px;
+}
+
+ .clothingheadr .thisbox{
+    background-color: #ff6600;
+    color: #fff;
+    /* margin-left: 832px; */
+}
+ .clothingheadr p{
+    width: 98px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+}
+.clothingheadr{
+    border-bottom: #ff6600 6px solid
+}
+ .clothingflet{
+    width: 238px;
+	height: 502px;
+}
+.clothingflet li{
+    float: left;
+    width: 79px;
+    margin-top: 24px;
+}
+
+.adverist{
+    width: 429px;
+	height: 162px;
+}
+.clothingright {
+height: 340px;
+}
+.clothingright p{
+    float: left;
+    border: solid 1px #cccccc; 
+}
+.clothingright p img{
+    width: 175px;
+}
+
+ .clothingrights p{
+    float: left;
+    border: solid 1px #cccccc;
+}
+ .clothingrights p img{
+    height: 157px;
+}
+.clothinglogo li{
+    float: left;
+    margin-top: 15px;
+}
+/* ------------------------------------------------------------- */
+#motion{
+    
+}
+#motion .clothingflet{
+    width: 238px;
+    height: 502px;
+    
+    
+}
+#motion .clothingflet{
+    position: relative;
+}
+#motion .clothingflet ul{
+    background-color: #fff;
+    position: absolute;
+    top: 361px;
+    left: 0px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+#baby .clothingflet{
+    width: 238px;
+	height: 502px;
+}
+#baby .clothingflet{
+    position: relative;
+}
+#baby .clothingflet ul{
+    background-color: #fff;
+    position: absolute;
+    top: 361px;
+    left: 0px;
+}
+#baby .clothingrights p img{
+    height: 157px;
+    width: 175px;
+}
+
+#baby .curs{
+    display: none
+}
+#baby .clothinglogo ul{
+    float: left;
+    margin-top: 20px;
+    
+}
+
+
+#suite .clothingheadr{
+    border-bottom: #ff6600 6px solid;
+}
+#suite .suiteflet{
+    width: 487px;
+	height: 502px;
+	background-color: #838383;
+	border: solid 2px #cccccc;
+}
+#suite .suiteright .clothingright p{
+    float: left;
+    border: solid 1px #cccccc; 
+}
+#suite .suiteright .clothingright p img{
+    width: 175px;
+    height: 340px;
+}
+#suite .suiteright .clothingrights p{
+    float: left;
+    border: solid 1px #cccccc;
+}
+#suite .suiteright .clothingrights p img{
+    height: 157px;
+    width: 175px;
+}
+
+
+#spread .clothingheadr{
+    border-bottom: #ff6600 6px solid;
+}
+#spread .clothingheadr h1{
+    color: #ff6600;
+}
+#spread .spreadhead li{
+    width: 214px;
+	height: 300px;
+    text-align: center;
+    margin-right: 26px;
+    margin-top: 13px;
+}
+#spread .spreadhead li p:nth-child(2){
+    text-indent: 40px;
+}
+#spread .spreadhead li span{
+    color: #f4290d;
+}
+#foot{
+    width: 100%;
+}
+#foot .footlogo li{
+    float: left;
+    margin-left: 100px;
+}
+#foot .footlogo li:first-child{
+    margin-left: 197px;
+}
+#foot{
+    border-top: #ff6600 solid 6px;
+}
+#foot .footlogo{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background-color: #f2f2f2;
+}
+#foot .footmenu li{
+    width: 126px;
+    height: 130px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 40px;
+}
+#foot .footmenu li:first-child{
+    margin-left: 226px;
+}
+#foot .footmenu li:last-child{
+    margin-left: 58px;
+    line-height: 130px;
+}
+#foot .footmenu li a{
+    line-height: 26px;
+}
+#foot .footmenu{
+    margin-top: 36px;
+}
+#foot .footer{
+    margin-top: 48px;
+}
+#foot .footer p:last-child{
+    margin-top: 23px;
+}
+/* 楼层滚动 */
+
+#floornav{
+    position: fixed;
+    top: 50%;
+    margin-top: -100px;
+    width: 40px;
+    height: 200px;
+    left: 50%;
+    margin-left:-670px;
+}
+#floornav ul li{
+    height: 40px;
+    text-align: center;
+    background: url(../img/fix_box_icon_160622.png) no-repeat;
+    padding-left: 40px;
+    line-height: 40px;
+    color: #fff;
+    overflow:hidden;
+}
+#floornav ul{
+    background-color: #f2f2f2;
+}
+#floornav ul li.bg2{
+    background-position-y:-80px
+}
+#floornav ul li.bg3{
+    background-position-y:-160px
+}
+#floornav ul li.bg4{
+    background-position-y:-240px
+}
+#floornav ul li.bg5{
+    background-position-y:-320px
+}
+/* ----------------------------------------------------- */
+/* 回到顶部 */
+.gototop {
+    display: none;
+    -webkit-animation: hide 350ms ease-out forwards 1;
+    animation: hide 350ms ease-out forwards 1;
+    padding: 16px 32px;
+    border: 0;
+    text-align: center;
+    background-color:#D5D6E2;
+    color: #494A5F;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    -webkit-transition: background-color 100ms ease-in-out;
+    transition: background-color 100ms ease-in-out;
+}
+.gototop > span {
+    display: inline-block;
+    -webkit-transition: transform 100ms 100ms ease-in-out;
+    transition: transform 100ms 100ms ease-in-out;
+}
+.gototop:hover,
+.gototop:focus {
+    background-color:#D5D6E2;
+}
+.gototop:hover > span,
+.gototop:focus > span {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+.isvisible {
+    -webkit-animation: show 1s ease-out forwards 1;
+    animation: show 1s ease-out forwards 1;
+}
+ 
+@-webkit-keyframes hide{
+  0% {
+    opacity: 1;
+    -webkit-transform:translateY(0);
+  }
+  25%{
+    opacity: .5;
+    -webkit-transform: rotate(-3deg) translateY(-40px);
+  }
+  75%{
+    -webkit-transform: rotate(3deg);
+  }
+  100%{
+    opacity: 0;
+    -webkit-transform:translateY(100px);
+  }
+}
+@keyframes hide{
+  0% {
+    opacity: 1;
+    transform:translateY(0);
+  }
+  25%{
+    opacity: .5;
+    transform: rotate(-3deg) translateY(-40px);
+  }
+  75%{
+    transform: rotate(3deg);
+  }
+  100%{
+    opacity: 0;
+    transform:translateY(100px);
+  }
+}
+ 
+@-webkit-keyframes show{
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  25%{
+    opacity: .5;
+    -webkit-transform: rotate(-3deg) translateY(-40px);
+  }
+  75%{
+    -webkit-transform: rotate(3deg);
+  }
+  100%{
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+  }
+}
+ 
+@keyframes show{
+  0% {
+    transform: rotate(0deg);
+  }
+  25%{
+    opacity: .5;
+    transform: rotate(-3deg) translateY(-40px);
+  }
+  75%{
+    transform: rotate(3deg);
+  }
+  100%{
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
+/* ========================================== */
+#ewm .ewmbt{
+    width: 40px;
+	height: 100px;
+    background-color: #ff6600;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    top:20%;
+    right:0;
+    z-index: 100;
+}
+#ewm .ewmbt p{
+    width: 20px;
+    color: #ffffff;
+    margin: 0 auto;
+   
+}
+#ewm .ewmbt .wet{
+    position: absolute;
+    right: -140px;
+    top: 0;
+}
+#ewm .ewmbt .wet1{
+    position: absolute;
+    right: -40px;
+    top:-40px;
+}
+#ewm .ewmbt .wet2{
+    position: absolute;
+    right: -40px;
+    top:100px;
+}
+/* =============================== */
+.topsearch{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(250,100,80,0.5);
+    border-bottom:2px solid #f60 ;
+    display: none;
+}
+.topsearch input{
+    width: 500px;
+    height: 40px;
+    border: none;
+    outline: none;
+    text-indent: 2px;
+    font-size: 16px;
+    color: #bfbfbf;
+    margin-left: 30%;
+
+}

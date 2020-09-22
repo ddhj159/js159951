@@ -1,0 +1,148 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: SimHei;
+    font-size: 14px;
+    color: #333;
+}
+.lg-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+    zoom: 1;
+}
+.textc{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+.mt4{
+    margin-top: 4px
+}
+.fs16{
+    font-size: 16px
+}
+.fs28{
+font-size: 28px;
+}
+.fs24{
+    font-size: 24px
+}
+.c33{
+    color: #333;
+}
+.mt24{
+    margin-top: 24px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.mt37{
+    margin-top: 37px;
+}
+.mt50{
+    margin-top: 50px;
+}
+.mt1173{
+    margin-top: 1173px;
+}
+.mt90{
+    margin-top: 90px;
+}
+input{
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mt13{
+    margin-top: 13px;
+}
+.mt30{
+    margin-top: 30px;
+}
+.mt40{
+    margin-top: 40px;
+}
+.mt58{
+    margin-top: 58px;
+}
+.mt112{
+    margin-top: 112px;
+}
+.pl5{
+    padding-left: 5px;
+}
+.fs12{
+    font-size: 12px;
+}
+.fs18{
+    font-size: 18px;
+}
+.fs20{
+    font-size: 20px;
+}
+.fs28{
+font-size: 28px;
+}
+
+.cf60{
+    color: #f60;
+}
+.cred{
+    color: #f00;
+}
+.cwhite{
+    color: #fff;
+}
+.c333{
+    color: #333333;
+}
+
+.tindent10{
+    text-indent:10px ;
+}
+.pdl22{
+    padding-left: 22px;
+}
+.del{
+    text-decoration: line-through;
+}
+.bd{
+    border:1px solid red
+}
+.ma{
+    margin: 0 auto;
+}
+.bg1{
+    background-color: #ccc;
+}
+.bg2{
+    background-color: #f60;
+}

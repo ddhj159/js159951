@@ -1,0 +1,136 @@
+#header{
+    height: 112px;
+    width: 100%;
+    
+}  
+#header #top{
+    background-color: #101010;
+     height: 28px;
+     line-height: 28px;
+    color: #e6e6e6;
+    position: relative;
+}
+#top .logo{
+    position: absolute
+}
+
+#header #top .textfl {
+    padding-left: 206px
+}
+#header #top .textfr a{
+  color: #ff6600;
+}
+#header #top .textfr{
+    padding-right:10px
+}
+#header .logotext{
+    margin-left: 306px;
+    line-height: 56px;
+}
+#header .hdbanner{
+    position: absolute;
+
+   
+}
+#header .hdbanner img{
+    width: 100%;
+    height: 526px;
+}
+#header .hdenter{
+    width: 350px;
+	height: 370px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 64px;
+    right: 291px;
+}
+#header .hdenter .hdxxk{
+    width: 350px;
+    height: 56px;
+    font-size: 22px;
+    line-height: 56px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+#header .hdenter .hdxxk .action{
+    color: #ff6600;
+    
+}
+#header .hdenter .hdimg img{
+    width: 147px;
+	height: 147px;
+}
+#header .hdenter .hdimg p{
+    margin-left: 25px;
+    margin-top: 66px;
+}
+#header .hdfoot{
+    text-align: center;
+    margin-top: 42px;
+}
+
+/* ====================== */
+#bdys input{
+    border:  1px solid black;
+}
+#bdys form p:first-child{
+   margin-top: 50px;
+}
+#bdys .bdysys{
+    width: 350px;
+    height: 40px;
+    margin-bottom: 20px;
+    position: relative;
+}
+#bdys .bdysbtn{
+    margin-top: 20px;
+
+}
+#bdys .bdysys:first-child{
+    margin-top: 50px;
+}
+#bdys .bdysys input{
+    width: 250px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+#bdys .btn{
+    margin-left: 30px;
+}
+#bdys .inputspan{
+    margin-left: 150px;
+}
+label {
+    color: red;
+    float: left;
+    margin-left: 140px;
+   
+}
+clore.open{
+    display: block;
+}
+.clore{
+    display: none;
+}
+/* ---------------------------------------------------------------------- */
+#foot{
+    text-align: center;
+    
+}
+#foot p{
+    margin-top: 23px;
+}
+/* =================================== */
+.zcbtn {
+    width: 350px;
+    height: 67px;
+    
+}
+.zcbtn a{
+    display: inline-block;
+    color: #ff6700;
+    line-height: 67px;
+    font-size: 20px;
+    margin-left: 130px;
+}
